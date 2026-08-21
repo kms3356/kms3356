@@ -11,39 +11,87 @@
   <br/>
   <br/>
   
-  ### 🧩 [Briefly](https://github.com/kk53451/Briefly) — AI 기반 개인화 뉴스 팟캐스트
+  <h3>🧾 <a href="https://github.com/kms3356/Vision_OCR_Platform">Vision_OCR_Platform</a> — AI OCR 기반 자격증 오답노트 & 취약점 진단 플랫폼</h3>
 
-> 뉴스 수집·클러스터링·요약을 거쳐 TTS로 변환, 하루 2회 개인화 팟캐스트를 자동 생성하는 서비스
+> Google Cloud Vision OCR과 GPT-4o-mini를 결합한 2-Stage 하이브리드 파이프라인으로, 기출문제 사진을 분석해 과목·단원 자동 분류 및 맞춤형 취약점 진단을 제공하는 서비스
 
 | | |
 |---|---|
-| **Stack** | Python · Flutter · Supabase · OpenAI · Ollama |
-| **Highlight** | 클러스터링 기반 토픽 랭킹, NotebookLM 오디오 자동화 |
-| **Link** | [🔗 Repo](https://github.com/kk53451/Briefly) |
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/cheonan_traffic_project">교차로별 교통 혼잡도 예측</a></b><br>
-  <sub>교차로 교통량 데이터를 기반으로 클러스터링과 시계열 예측을 수행하고, <br>신호 조정 정책 효과를 시뮬레이션한 데이터 분석 프로젝트</sub>
-</p>
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/chestXRAY">흉부 X-ray 분류 프로젝트</a></b><br>
-  <sub>[진행 중] 흉부 X-ray 영상을 정상·세균성 폐렴·바이러스성 폐렴 3종으로 분류하는 딥러닝 프로젝트 </sub>
-</p>
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/h26_textmine/tree/main/crawling">채용 공고 데이터 분석</a></b><br>
-  <sub>[진행 중] 채용 공고의 트렌드와 시급성을 구조화하고, <br>벡터 임베딩 기반의 개인 맞춤형 이력서 추천 및 AI 첨삭까지 연결한 채용 플랫폼 프로젝트</sub>
-</p>
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/NotWaste">냉장고 관리 앱(NotWaste)</a></b><br>
-  <sub>유통기한 기반 알림과 데이터 관리를 통해 음식 낭비를 줄이는 Android 애플리케이션</sub>
-</p>
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/h26_web/tree/main/mini-game">테트리스 미니게임</a></b><br>
-  <sub>JavaScript와 HTML5로 구현한 웹 브라우저 테트리스 게임</sub>
-</p>
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/zzioozzioo/bank_system">은행 시스템 구현 프로젝트</a></b><br>
-  <sub>사용자의 계좌를 관리하고 입/출금 및 계좌이체가 가능한 은행 시스템을 구축한 프로젝트</sub>
-</p>
+| **Stack** | Python · Google Cloud Vision API · OpenAI GPT-4o-mini · MySQL |
+| **Highlight** | 이미지 전처리(EXIF 자동 보정), OCR·LLM 2단계 파이프라인, 오답 기반 취약점 시각화 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/Vision_OCR_Platform) |
+
+<br>
+
+<h3>🎯 <a href="https://github.com/kms3356/WpfYoloApp">WpfYoloApp</a> — YOLO 실시간 객체 인식 뷰어 (Python + WPF)</h3>
+
+> Python(YOLO) 서버가 웹캠 영상을 실시간 분석해 TCP 소켓으로 전송하면, C# WPF 클라이언트가 이를 수신해 화면에 스트리밍하는 프로젝트
+
+| | |
+|---|---|
+| **Stack** | Python · OpenCV · Ultralytics YOLO · C# WPF (.NET) · TCP Socket |
+| **Highlight** | 길이 접두(length-prefixed) 통신 프로토콜 직접 설계, 비동기 수신 루프로 UI 프리징 방지, 중복 로그 방지 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/WpfYoloApp) |
+
+<br>
+
+<h3>🏕️ [진행중] <a href="https://github.com/kms3356/campers">campers</a></h3>
+
+> Spring 5 MVC 기반 웹 애플리케이션. MyBatis + HikariCP로 MySQL과 연동하고 Spring Security로 인증을 처리하는 구조로 개발 중
+
+| | |
+|---|---|
+| **Stack** | Java · Spring MVC 5 · MyBatis · Spring Security · MySQL · HikariCP |
+| **Highlight** | Spring Security 인증, MyBatis 기반 DB 연동 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/campers) |
+
+<br>
+
+<h3>✈️ <a href="https://github.com/kms3356/Sky-Strikers">Sky-Strikers</a></h3>
+
+> 별도 설치 없이 브라우저에서 바로 즐기는 1945 스타일 클래식 비행 슈팅 게임
+
+| | |
+|---|---|
+| **Stack** | HTML5 · CSS3 · Vanilla JavaScript |
+| **Highlight** | GitHub Pages로 즉시 플레이 가능, 프레임워크 없이 순수 JS로 게임 로직 구현 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/Sky-Strikers) · [🎮 Play](https://kms3356.github.io/Sky-Strikers/) |
+
+<br>
+
+<h3>📊 <a href="https://github.com/kms3356/WordFreqwebDashboard">WordFreqwebDashboard</a></h3>
+
+> CSV 파일을 업로드하면 텍스트 컬럼의 단어 빈도를 막대그래프·워드클라우드로 시각화해주는 Streamlit 대시보드
+
+| | |
+|---|---|
+| **Stack** | Python · Streamlit · Pandas |
+| **Highlight** | CSV 업로드 기반 실시간 분석, 빈도수 막대그래프 + 워드클라우드 동시 시각화 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/WordFreqwebDashboard) |
+
+<br>
+
+<h3>📝 <a href="https://github.com/kms3356/Spring-Board-basic">Spring-Board-basic</a></h3>
+
+> Spring MVC + MyBatis + Oracle 기반의 기본 게시판(CRUD) 구현 프로젝트
+
+| | |
+|---|---|
+| **Stack** | Java · Spring MVC 5 · MyBatis · Oracle DB · HikariCP |
+| **Highlight** | Spring MVC 기본 아키텍처(Controller-Service-DAO) 학습 및 구현 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/Spring-Board-basic) |
+
+<br>
+
+<h3>🏦 <a href="https://github.com/kms3356/bank-system">bank-system</a></h3>
+
+> Python과 Oracle DB를 연동해 만든 객체지향 기반 은행 관리 시스템. 계좌 개설, 입출금, 이체, 트랜잭션 관리 기능 구현
+
+| | |
+|---|---|
+| **Stack** | Python · Oracle Database · oracledb · tabulate |
+| **Highlight** | Commit/Rollback으로 이체 트랜잭션 원자성 보장, SQL Injection 방어(바인딩 변수), 모듈화된 클래스 구조 |
+| **Link** | [🔗 Repo](https://github.com/kms3356/bank-system) |
 
   ## 🧱 Tech Stack
   ### Language
