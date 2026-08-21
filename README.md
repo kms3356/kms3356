@@ -1,7 +1,7 @@
 <div align="center">
   
   <!--Header-->
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Minseok%20Kim%2C%20Junior%20Developer&fontSize=38)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:2193B0,100:6DD5ED&height=300&section=header&text=Minseok%20Kim%2C%20Junior%20Developer&fontSize=38)
   
 </div>
 
