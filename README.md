@@ -143,9 +143,9 @@
   <br/>
   
   ## 🤔 Github Stats
-  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kms3356)](https://github.com/anuraghazra/github-readme-stats)
+  [![Anurag's GitHub stats](https://github-readme-stats-five-kappa-63.vercel.app/api?username=kms3356)](https://github.com/zzioozzioo/github-readme-stats)
   <br/>
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kms3356)](https://github.com/anuraghazra/github-readme-stats)
+  ![Top Langs](https://github-readme-stats-five-kappa-63.vercel.app/api/top-langs/?username=kms3356&layout=compact&theme=algolia)
   
 </div>
 
