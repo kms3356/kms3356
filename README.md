@@ -1,25 +1,25 @@
-<div>
+<div align="center">
   
   <!--Header-->
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Good%20to%20see%20you%20%F0%9F%A4%97)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Minseok%20Kim%2C%20Junior%20Developer&fontSize=38)
   
 </div>
 
 <div>
   <!--Body-->
-  
-  ## 👀 About Me
-  #### :raising_hand: I am a Cloud Engineer from South Korea.<br/>
-  #### :fire: I aim to become a Cloud AI Engineer.<br/>
-  #### :mortar_board: Bachelor of Applied Artificial Intelligence, Sungkyunkwan University(SKKU)
-  <br/>
-  <br/>
-  <h3 align="center"><b>TOY PROJECT :teddy_bear:</b></h3>
 
-<p align="center">
-  <b>:pushpin: <a href="https://github.com/kk53451/Briefly">AI 기반 개인화 뉴스 팟캐스트(Briefly)</a></b><br>
-  <sub>AI 기반 뉴스 자동 수집·클러스터링·요약 후 TTS로 개인화 팟캐스트를 생성하는 플랫폼</sub>
-</p>
+  <br/>
+  <br/>
+  
+  ### 🧩 [Briefly](https://github.com/kk53451/Briefly) — AI 기반 개인화 뉴스 팟캐스트
+
+> 뉴스 수집·클러스터링·요약을 거쳐 TTS로 변환, 하루 2회 개인화 팟캐스트를 자동 생성하는 서비스
+
+| | |
+|---|---|
+| **Stack** | Python · Flutter · Supabase · OpenAI · Ollama |
+| **Highlight** | 클러스터링 기반 토픽 랭킹, NotebookLM 오디오 자동화 |
+| **Link** | [🔗 Repo](https://github.com/kk53451/Briefly) |
 <p align="center">
   <b>:pushpin: <a href="https://github.com/zzioozzioo/cheonan_traffic_project">교차로별 교통 혼잡도 예측</a></b><br>
   <sub>교차로 교통량 데이터를 기반으로 클러스터링과 시계열 예측을 수행하고, <br>신호 조정 정책 효과를 시뮬레이션한 데이터 분석 프로젝트</sub>
