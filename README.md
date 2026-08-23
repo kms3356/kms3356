@@ -35,6 +35,18 @@
 
 <br>
 
+<h3>💼 [진행중] <a href="https://github.com/zzioozzioo/it-job-analytics-hub">IT Job Analytics Hub</a></h3>
+
+> IT 채용 공고 데이터를 수집·분석해 기술 트렌드를 파악하고 채용 시급성을 정량화하며, 구직자에게 맞춤 공고 추천과 이력서 첨삭까지 제공하는 데이터 분석 허브 (2인 팀 프로젝트)
+
+| | |
+|---|---|
+| **Stack** | Python · Requests/BeautifulSoup · Pandas · scikit-learn · XGBoost · Streamlit · OpenAI API |
+| **Highlight** | 사람인·잡코리아·점핏에서 약 8만 건 공고 크롤링, 채용 시급성 ML 예측 모델(XGBoost + TF-IDF), 이력서 기반 공고 추천 및 AI 첨삭 |
+| **Link** | [🔗 Repo](https://github.com/zzioozzioo/it-job-analytics-hub) |
+
+<br>
+
 <h3>🏕️ [진행중] <a href="https://github.com/kms3356/campers">campers</a></h3>
 
 > Spring 5 MVC 기반 웹 애플리케이션. MyBatis + HikariCP로 MySQL과 연동하고 Spring Security로 인증을 처리하는 구조로 개발 중
